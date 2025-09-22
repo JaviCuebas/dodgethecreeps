@@ -52,12 +52,11 @@ height = 84.0
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_1qmh0")
-metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_yscv0")
-animation = &"swim"
+animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5707964
